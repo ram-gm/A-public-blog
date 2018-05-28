@@ -1,0 +1,8 @@
+header{height: 50px;background-color: #f5f5f5;}
+.logo{height: 50px;width: auto;float: left;}
+.time{float: left;line-height: 50px;margin-left: 600px}
+.login{float: right;}
+
+/*导航条*/
+nav{text-align: center;}
+nav a{padding: 0 30px;border-right:1px solid #000000; border-left: 1px solid #000000; text-decoration: none;}
