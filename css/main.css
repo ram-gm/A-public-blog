@@ -1,9 +1,39 @@
 .main{width: 1200px;margin: 50px auto;}
 
 /*左边模块*/
-.left{width: 250px;float: left;position: absolute;}
+.left{width: 250px;float: left;margin-right: 20px;}
 .left_repeat{width: 100%;background-color: #AAAAAA;margin: 0 0 20px 0;}
 
 /*个人信息模块*/
-.information img{height: 80px;border-radius: 50%;position: relative;margin: 10px 90px;}
+.information img{height: 80px;border-radius: 50%;margin: 10px 90px;}
 .information p{font-size: 30px;text-align: center;color: #ffffff;}
+/*分类模块*/
+.classify li{list-style: none;margin:20px 10px;}
+.classify a{text-decoration: none;color: #444;}
+/*最新文章*/
+.article li{list-style: none;margin:20px 10px;}
+.article a{text-decoration: none;color: #444;}
+
+/*中间模块*/
+.middle{float: left;width: 600px;}
+
+/*轮播图部分*/
+.figure{width: 100%; height: 300px;position: relative;overflow: hidden;}
+.fimg{display: none;}
+.im{display: block;}
+.cirbox{position: absolute;bottom: 10px;left: 70%;}
+.cir{border-radius: 50%;display: block;height: 10px;width: 10px;border: 1px solid #000000;float: left;margin: 0 10px;}
+.ci{background-color: #ffffff;}
+
+/*新闻主体部分*/
+.new{height: 100px;position: relative;border-bottom: 3px solid #CCC;}
+.new a{text-decoration: none;}
+.new_time{position: absolute;right: 10%;bottom: 10%;}
+
+/*右边*/
+.right{float: left;width: 250px;margin-left: 20px;}
+.right_repeat{margin-bottom: 20px;width: 100%;}
+
+/*日历*/
+.calendar{height: 250px;background-color: #CCC;}
+

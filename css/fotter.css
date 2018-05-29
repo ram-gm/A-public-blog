@@ -1,2 +1,2 @@
-fotter{height: 50px;position: absolute;bottom: 0px;background-color: #AAAAAA;width: 100%;}
-fotter p{color: #ffffff;text-align: center;}
+fotter{height: 50px;background: #AAA;clear: both;width: 100%;display: block;}
+fotter p{text-align: center;}

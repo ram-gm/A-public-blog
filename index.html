@@ -4,6 +4,8 @@
 	<title>博客</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="Script/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="Script/index.js"></script>
 </head>
 <body>
 		<header>
@@ -19,8 +21,9 @@
 		<nav>
 			<ul>
 				<a href="#">首页</a>
-				<a href="#">最新博文</a>
+				<a href="#">进入个人主页</a>
 				<a href="#">写文章</a>
+				<a href="#">管理文章</a>
 			</ul>
 		</nav>
 
@@ -31,19 +34,61 @@
 					<p>用户名</p>
 				</div>
 
-				<div class="left_repeat">
-					<p>文章分类模块</p>
+				<div class="left_repeat classify">
+					<ul>
+						<li><a href="#">前端</a></li>
+						<li><a href="#">后端</a></li>
+						<li><a href="#">php</a></li>
+						<li><a href="#">js</a></li>
+					</ul>
 				</div>
 
-				<div class="left_repeat">
-					<p>显示最新的文章标题</p>
+				<div class="left_repeat article">
+					<ul>
+						<li><a href="#">安装部署github的介绍</a></li>
+						<li><a href="#">安装部署github的介绍</a></li>
+						<li><a href="#">安装部署github的介绍</a></li>
+						<li><a href="#">安装部署github的介绍</a></li>
+					</ul>
 				</div>
 			</div>
 
-			<div class="Middle"></div>
+			<div class="middle">
+				<div class="figure">
+						<img src="Img/figure-1.jpg" class=" fimg im">
+						<img src="Img/figure-2.jpg" class="fimg">
+						<img src="Img/figure-3.jpg" class="fimg">
+					<div class="cirbox">
+						<p class="cir ci"></p>
+						<p class="cir"></p>
+						<p class="cir"></p>
+					</div>
+				</div>
+
+				<div class="content">
+					<div class="new first_new">
+						<a href="#"><h3>安装部署github的介绍</h3></a>
+						<p class="new_time">2018年5月三日</p>
+					</div>
+					<div class="new">
+						<a href="#"><h3>前端开发规范</h3></a>
+						<p class="new_time">2018年5月三日</p>
+					</div>
+					<div class="new">
+						<a href="#"><h3>前端开发规范</h3></a>
+						<p class="new_time">2018年5月三日</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="right">
+			<div class="right_repeat calendar">
+				日历部分
+			</div>
 		</div>
 		<fotter>
-			<p>博客作者版权所有</p>
-		</fotter>
+			<p>版权所有</p>
+		</fotter>>
 </body>
 </html>

@@ -1,6 +1,6 @@
-header{height: 50px;background-color: #f5f5f5;}
+header{height: 50px;background-color: #f5f5f5;width: 100%;}
 .logo{height: 50px;width: auto;float: left;}
-.time{float: left;line-height: 50px;margin-left: 600px}
+.time{float: left;line-height: 50px;}
 .login{float: right;}
 
 /*导航条*/
